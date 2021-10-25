@@ -1,0 +1,104 @@
+{
+    "items": [
+        {
+            "position": 1,
+            "row": "Starting Cash",
+            "value": "368700000"
+        },
+        {
+            "position": 2,
+            "row": "Operations Cash Flow",
+            "value": "1483200000"
+        },
+        {
+            "position": 3,
+            "row": "CapEx",
+            "value": "-403000000"
+        },
+        {
+            "position": 4,
+            "row": "Free Cash Flow",
+            "value": "1080200000"
+        },
+        {
+            "position": 5,
+            "row": "Investing Cash Flow(ex.CapEx)",
+            "value": "-890500000"
+        },
+        {
+            "position": 6,
+            "row": "Financing Cash Flow",
+            "value": "-226500000"
+        },
+        {
+            "position": 7,
+            "row": "Exchange Rate Effects",
+            "value": "-20200000"
+        },
+        {
+            "position": 8,
+            "row": "Net Cash Flow",
+            "value": "-57000000"
+        },
+        {
+            "position": 9,
+            "row": "Ending Cash",
+            "value": "311700000"
+        }
+    ],
+    "tree": [
+        {
+            "children": [],
+            "field": "Starting Cash",
+            "position": 1
+        },
+        {
+            "children": [],
+            "field": "Operations Cash Flow",
+            "position": 2
+        },
+        {
+            "children": [],
+            "field": "CapEx",
+            "position": 3
+        },
+        {
+            "children": [
+                2,
+                3
+            ],
+            "field": "Free Cash Flow",
+            "position": 4
+        },
+        {
+            "children": [],
+            "field": "Investing Cash Flow(ex.CapEx)",
+            "position": 5
+        },
+        {
+            "children": [],
+            "field": "Financing Cash Flow",
+            "position": 6
+        },
+        {
+            "children": [],
+            "field": "Exchange Rate Effects",
+            "position": 7
+        },
+        {
+            "children": [
+                4,
+                5,
+                6,
+                7
+            ],
+            "field": "Net Cash Flow",
+            "position": 8
+        },
+        {
+            "children": [],
+            "field": "Ending Cash",
+            "position": 9
+        }
+    ]
+}
